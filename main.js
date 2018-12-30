@@ -122,6 +122,8 @@ for(let i = 1; i <= 100; i++) {
     };
 }
 
+    // SECTION C - GIVE ME FIVE //
+
 for(let i = 0; i <= 100; i++) {
     if (i % 5 == 0 && i != 0){
         console.log(`I found a ${i}. High Five!`);
@@ -131,3 +133,24 @@ for(let i = 0; i <= 100; i++) {
         console.log(i);
     }
 }
+
+    // SECTION D - SAVINGS ACCOUNT //
+function bank_account() {
+    var balance = 0;
+    for(let i = 0; i <= 10; i++) {
+        balance += i 
+    };
+    console.log(balance);
+}
+
+bank_account();
+
+function bank_account() {
+    var balance = 0;
+    for(let i = 1; i <= 100; i++) {
+        balance += i*2
+    };
+    console.log(balance);
+}
+
+bank_account();
