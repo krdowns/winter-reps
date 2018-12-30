@@ -82,3 +82,14 @@ if (animal == "cow") {
 // Change your code so that if the variable animal is anything other than a cow, it will print "Hey! You're not a cow."
 
 // Commit.
+
+
+// SECTION E - DRIVER'S ED //
+
+var age;
+
+if (age < 16) {
+    console.log(`Sorry you're too young.`);
+} else {
+    console.log(`Here are the keys`);
+};
