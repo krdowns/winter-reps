@@ -121,3 +121,13 @@ for(let i = 1; i <= 100; i++) {
         console.log(i + ` <-- is an even number`);
     };
 }
+
+for(let i = 0; i <= 100; i++) {
+    if (i % 5 == 0 && i != 0){
+        console.log(`I found a ${i}. High Five!`);
+    } else if (i % 3 == 0 && i != 0) {
+        console.log(`I found a ${i}. Three is a crowd`);
+    } else {
+        console.log(i);
+    }
+}
