@@ -154,3 +154,18 @@ function bank_account() {
 }
 
 bank_account();
+
+    // SECTION E - MULTIPLES OF 3 AND 5 //
+'ALREADY DID IT BUT WANTED TO PRACTICE AGAIN'
+
+function multiples() {
+    var sum = 0;
+    for(let i = 1; i < 1000; i++) {
+        if (i % 3 == 0 || i % 5 == 0) {
+            sum += i;
+        };
+    };
+    console.log(sum);
+}
+
+multiples();
