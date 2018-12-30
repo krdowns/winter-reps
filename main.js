@@ -1,5 +1,6 @@
+//////////////// I. VARIABLES AND DATATYPES ///////////////
 
-// SECTION A - Q & A //
+    // SECTION A - Q & A //
 
 // How do we assign a value to a variable?
 var variable = 1;
@@ -20,7 +21,7 @@ var newVariable = variable;
 // What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
 'I would say that at least 75% of the time should be spent planning so when you are coding you are just typing out your solution rather than solving it as you type.'
 
-// SECTION B - STRINGS //
+    // SECTION B - STRINGS //
 
 // Create a variable called firstVariable.
 var firstVariable;
@@ -47,7 +48,7 @@ var yourName = "Kenny Downs"
 console.log("Hello my name is " + yourName);
 console.log(`Hello my name is ${yourName}`);
 
-// SECTION C - BOOLEANS //
+    // SECTION C - BOOLEANS //
 
   const a = 4;
   const b = 53;
@@ -67,7 +68,7 @@ console.log(`Hello my name is ${yourName}`);
   console.log(48 == '48');
 
 
-// SECTION D - THE FARM //
+    // SECTION D - THE FARM //
 
 // Declare a variable animal. Set it to be either "cow" or something else.
 var animal = "cow";
@@ -84,7 +85,7 @@ if (animal == "cow") {
 // Commit.
 
 
-// SECTION E - DRIVER'S ED //
+    // SECTION E - DRIVER'S ED //
 
 var age;
 
@@ -93,3 +94,30 @@ if (age < 16) {
 } else {
     console.log(`Here are the keys`);
 };
+
+
+//////////////////// II. LOOPS /////////////////////
+
+    // SECTION A - THE BASICS //
+
+for(let i = 0; i <= 10; i++) {
+    console.log(i);
+}
+
+for(let i = 10; i <= 400; i++) {
+    console.log(i);
+}
+
+for(let i = 12; i <= 4000; i ++) {
+    if (i % 3 == 0) {
+        console.log(i);
+    };
+}
+
+    // SECTION B - GET EVEN //
+
+for(let i = 1; i <= 100; i++) {
+    if (i % 2 == 0) {
+        console.log(i + ` <-- is an even number`);
+    };
+}
