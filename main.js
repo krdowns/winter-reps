@@ -211,3 +211,27 @@ ourClass[4] = "Octocat";
 ourClass.push("Cloud City");
 console.log(ourClass);
 
+    // SECTION E - MIX IT UP //
+
+const myArray = [5, 10, 500, 20]
+
+// Add the string "Egon" to the end of the array. Add another string of your choice to the end of the array.
+myArray.push("Egon", "Peter");
+console.log(myArray);
+
+// Remove the 5 from the beginning of the array.
+myArray.shift();
+console.log(myArray);
+
+// Add the string "Bob Marley" to the beginning of the array.
+myArray.unshift("Bob Marley");
+console.log(myArray);
+
+// Remove the string of your choise from the end of the array.
+myArray.shift();
+console.log(myArray);
+
+// Reverse this array using Array.prototype.reverse(). Did you mutate the array? What does mutate mean? Did the .reverse() method return anything?
+myArray.reverse();
+console.log(myArray);
+'Yes it both mutated and reversed it. Mutated is saving the change to the old array as the same array but with the changes.'
