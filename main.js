@@ -235,3 +235,22 @@ console.log(myArray);
 myArray.reverse();
 console.log(myArray);
 'Yes it both mutated and reversed it. Mutated is saving the change to the old array as the same array but with the changes.'
+
+    // SECTION F - BIGGIE SMALLS //
+
+// Create a variable that contains an integer.
+var integer = 3;
+
+// Write an if ... else statement that:
+
+// console.log()s "little number" if the number is entered is less than 100
+// console.log()s big number if the number is greater than or equal to 100.
+
+
+if (integer < 100) {
+    console.log("little number")
+} else {
+    console.log("big number")
+};
+
+
