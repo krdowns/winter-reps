@@ -170,6 +170,7 @@ function multiples() {
 
 multiples();
 
+
 //////////////// III. ARRAYS & CONTROL FLOW //////////////////
 
     // SECTION A - TALK ABOUT IT //
@@ -324,3 +325,15 @@ console.log(`Thom is looking fierce in a ${shirt}, ${pants}, and a pair of ${acc
 // Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
 thomsCloset[1][2] = "Footie Pajamas"
 console.log(thomsCloset);
+
+
+////////////////////// IV. FUNCTIONS /////////////////////////
+
+// SECTION A - printGreeting //
+'Doing again for practice'
+
+function printGreeting(name) {
+    console.log(`Hello there, ${name}!`);
+}
+
+printGreeting("Kenny");
