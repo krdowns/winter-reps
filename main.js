@@ -337,3 +337,11 @@ function printGreeting(name) {
 }
 
 printGreeting("Kenny");
+
+// SECTION B - printCool //
+
+function printCool(name) {
+    console.log(`${name} is cool`);
+}
+
+printCool("Kenny");
