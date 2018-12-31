@@ -188,3 +188,15 @@ multiples();
 var quotes = ["To be or not to be..", "All animals are equal", "Arson meets on Mondays"]
 
     // SECTION C - ACCESSING ELEMENTS //
+
+const randomThings = [1, 10, "Hello", true]
+// How do you access the first element in the array?
+console.log(randomThings[0]);
+
+// Change the value of "Hello" to "World" //
+randomThings[2] = "World";
+console.log(randomThings);
+
+    // SECTION D - CHANGE VALUES //
+
+
