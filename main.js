@@ -262,3 +262,65 @@ if (integer < 5) {
 } else {
     console.log("monkey")
 };
+
+    // SECTION H - WHAT'S IN YOUR CLOSET //
+
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+    ];
+    
+    // Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+[
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+]
+];
+
+// What's Kristyn wearing today? Using bracket notation to access items in kristynsCloset, log the sentence "Kristyn is rocking that " + the third item in Kristyn's closet + " today!" to the console.
+console.log(`Kristyn is rocking that ${kristynsCloset[2]} today!}`)
+
+// Kristyn just bought some sweet shades! Add "raybans" to her closet after "yellow knit hat".
+kristynsCloset.splice(6, 0, "raybans");
+console.log(kristynsCloset);
+
+
+// Kristyn spilled coffee on her hat... modify this item to read "stained knit hat" instead of yellow.
+
+kristynsCloset[5] = "stained knit hat";
+console.log(kristynsCloset);
+
+// Put together an outfit for Thom! Using bracket notation, access the first element in Thom's shirts array.
+var shirt = (thomsCloset[0][0]);
+
+// In the same way, access one item from Thom's pants array.
+var pants = (thomsCloset[1][1]);
+
+// Access one item from Thom's accessories array.
+var acc = (thomsCloset[2][2]);
+
+// Log a sentence about what Thom's wearing. Example: "Thom is looking fierce in a grey button-up, jeans and wool scarf!"
+console.log(`Thom is looking fierce in a ${shirt}, ${pants}, and a pair of ${acc}!`);
+
+// Get more specific about what kind of PJs Thom's wearing this winter. Modify the name of his PJ pants to Footie Pajamas.
+thomsCloset[1][2] = "Footie Pajamas"
+console.log(thomsCloset);
