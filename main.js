@@ -169,3 +169,22 @@ function multiples() {
 }
 
 multiples();
+
+//////////////// III. ARRAYS & CONTROL FLOW //////////////////
+
+    // SECTION A - TALK ABOUT IT //
+
+// What are the things in an array called?
+'Elements'
+
+// Do Arrays guarantee those things will be in order?
+'No'
+
+// What real-life thing could you model with an array?
+'A shopping list'
+
+    // SECTION B - EASY DOES IT //
+
+var quotes = ["To be or not to be..", "All animals are equal", "Arson meets on Mondays"]
+
+    // SECTION C - ACCESSING ELEMENTS //
