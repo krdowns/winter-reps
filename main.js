@@ -330,7 +330,8 @@ console.log(thomsCloset);
 ////////////////////// IV. FUNCTIONS /////////////////////////
 
 // SECTION A - printGreeting //
-'Doing again for practice'
+// 'Doing again for practice'
+// Do you think you could write a function called printGreeting with a parameter name that returns a greeting with the argument interpolated into the greeting?
 
 function printGreeting(name) {
     console.log(`Hello there, ${name}!`);
@@ -339,9 +340,19 @@ function printGreeting(name) {
 printGreeting("Kenny");
 
 // SECTION B - printCool //
+// Write a function printCool that accepts one parameter, name as an argument. The function should print the name and a message saying that that person is cool.
 
 function printCool(name) {
     console.log(`${name} is cool`);
 }
 
 printCool("Kenny");
+
+//  SECTION C - calculateCube //
+// Write a function calculateCube that takes a single number and prints the volume of a cube made from that number.
+
+function calculateCube(number) {
+    console.log(number*number*number);
+}
+
+calculateCube(5);
