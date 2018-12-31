@@ -358,6 +358,7 @@ function calculateCube(number) {
 calculateCube(5);
 
 // SECTION D - isVowel //
+// Write a function isVowel that takes a character (i.e. a string of length 1) and returns true if it is a vowel, false otherwise. The vowel could be upper or lower case.
 
 function isVowel(char) {
     if (char == "a" || char == "e" || char == "i" || char == "o" || char == "u") {
@@ -369,3 +370,13 @@ function isVowel(char) {
 }
 
 isVowel("a");
+
+// SECTION E - getTwoLengths //
+
+function getTwoLengths(string1, string2) {
+    length1 = string1.length
+    length2 = string2.length
+    console.log([length1, length2]);
+}
+
+getTwoLengths("Hello", "Chicken")
