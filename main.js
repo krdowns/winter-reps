@@ -492,3 +492,6 @@ var user = {
 // SECTION B - Update the user //
 user.email = "newkenny@gmail.com";
 user.age++;
+
+// SECTION C - Adding Keys and Values //
+user.location = "SF";
