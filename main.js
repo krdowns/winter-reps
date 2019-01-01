@@ -477,3 +477,14 @@ function getRandomQuote() {
 };
 
 getRandomQuote();
+
+
+///////////////////////// VI. OBJECTS //////////////////////////////
+
+// SECTION A  - Make a user object //
+var user = {
+    name: "Kenny",
+    email: "kenny@gmail.com",
+    age: "32",
+    purchased: []
+};
