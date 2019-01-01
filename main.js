@@ -439,3 +439,41 @@ function reverseWordOrder(string) {
 
 reverseWordOrder("hello world")
 
+// SECTION K - Math.random //
+
+    // Between 1-10 //
+function randomSingleDigit(min, max) {
+    console.log(Math.floor(Math.random() * (max-min + 1)) + min);
+}
+
+randomSingleDigit(1, 10);
+
+    // Between 10 - 100 //
+function randomDoubleDigit(min, max) {
+    console.log(Math.floor(Math.random() * (max-min + 1)) + min);
+}
+
+randomDoubleDigit(10, 100);
+
+    // Between 532 - 13267 //
+function randomBigNumber(min, max) {
+    console.log(Math.random() * (max-min + 1) + min);
+}
+
+randomBigNumber(532, 13267)
+
+
+    // Number Between 1 - 10 //
+function randomNumber(min, max) {
+    console.log(Math.random() * (max-min + 1) + min);
+}
+
+randomNumber(1, 10)
+
+    // Get Random Quote //
+function getRandomQuote() {
+    var quotes = [`The worst thing about prison was--was the Dementors`, `Hi, I'm Date Mike. Nice to meet me. How do you like your eggs in the morning?`, `I say I say I sit on you`];
+    console.log(quotes[Math.floor(Math.random() * quotes.length)]);
+};
+
+getRandomQuote();
