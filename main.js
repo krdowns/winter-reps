@@ -528,3 +528,19 @@ user.purchased.forEach(e => {
 user.friend.purchased.forEach(e => {
     console.log(e);
 });
+
+// SECTION G - Functions can operate on objects //
+
+function updateUser() {
+    user.age = user.age += 1;
+    user.name = user.name.toUpperCase();
+}
+
+updateUser();
+
+function oldAndLoud(person) {
+    person.age = person.age += 1;
+    person.name = person.name.toUpperCase();
+};
+
+oldAndLoud(user);
