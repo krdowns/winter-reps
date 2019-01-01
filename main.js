@@ -380,3 +380,26 @@ function getTwoLengths(string1, string2) {
 }
 
 getTwoLengths("Hello", "Chicken")
+
+// SECTION F - getMultipleLengths //
+let getMultipleLengths = arrayOfStrings => {
+    let arrayOfLengths = [];
+    arrayOfStrings.forEach(array => arrayOfLengths.push(array.length))
+    console.log(arrayOfLengths);
+}
+
+console.log(getMultipleLengths(["hello", "what", "is", "up", "dude"]));
+
+// SECTION G - maxOfThree //
+
+function maxOfThree(num1, num2, num3) {
+    if (num1>=num2 && num1>=num3) {
+        console.log(num1);
+    } else if (num1<=num2 && num1>=num3){
+        console.log(num2);
+    } else {
+        console.log(num3);
+    }
+}
+
+maxOfThree(12,15,9);
