@@ -426,3 +426,16 @@ function transmogrify(num1, num2, num3) {
 }
 
 console.log(transmogrify(5,3,2));
+
+// SECTION J - reverseWordOrder //
+
+function reverseWordOrder(string) {
+    var reversedString = "";
+    for (var i = string.length - 1; i >= 0; i--) {
+        reversedString += string[i];
+    }
+    return reversedString;
+}
+
+reverseWordOrder("hello world")
+
