@@ -418,3 +418,11 @@ let printLongestWord = wordsArray => {
 }
 
 console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
+
+// SECTION I - transmogrify //
+
+function transmogrify(num1, num2, num3) {
+    console.log((num1 * num2)**num3)
+}
+
+console.log(transmogrify(5,3,2));
