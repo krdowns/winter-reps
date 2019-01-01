@@ -495,3 +495,10 @@ user.age++;
 
 // SECTION C - Adding Keys and Values //
 user.location = "SF";
+
+// SECTION D - Shopaholic //
+user.purchased.push("carbohydrates");
+user.purchased.push("peace of mind");
+user.purchased.push("Merino jodhpurs");
+
+console.log(user.purchased[2]);
