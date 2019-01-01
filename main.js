@@ -382,6 +382,7 @@ function getTwoLengths(string1, string2) {
 getTwoLengths("Hello", "Chicken")
 
 // SECTION F - getMultipleLengths //
+
 let getMultipleLengths = arrayOfStrings => {
     let arrayOfLengths = [];
     arrayOfStrings.forEach(array => arrayOfLengths.push(array.length))
@@ -403,3 +404,17 @@ function maxOfThree(num1, num2, num3) {
 }
 
 maxOfThree(12,15,9);
+
+// SECTION H - printLongestWord //
+
+let printLongestWord = wordsArray => {
+    let longestWord = wordsArray[0];
+    for (let i = 0; i < wordsArray.length; i++) {
+        if (wordsArray[i].length > longestWord.length) {
+            longestWord = wordsArray[i]
+        }
+    }
+    console.log(longestWord)
+}
+
+console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
