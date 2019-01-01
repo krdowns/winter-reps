@@ -519,4 +519,12 @@ user.friend.purchased.push("The One Ring");
 user.friend.purchased.push("A latte");
 console.log(user.friend.purchased[1]);
 
+// SECTION F - Loops //
 
+user.purchased.forEach(e => {
+    console.log(e);
+});
+
+user.friend.purchased.forEach(e => {
+    console.log(e);
+});
